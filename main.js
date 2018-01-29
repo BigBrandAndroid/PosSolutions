@@ -30,7 +30,13 @@ const menu = Menu.buildFromTemplate([{
                 //mainWindow.destroy();
                 prefWindow.show();
             }
+           
+        },{
+        label:"get in there",
+        click:function(){
+          console.log("test")
         }
+      }
     ]
     }]);
 Menu.setApplicationMenu(menu);

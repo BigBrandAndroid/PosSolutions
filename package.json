@@ -2,7 +2,7 @@
   "name": "helloelectron",
   "version": "1.0.0",
   "description": "First Electron App",
-  "main": "filewrite.js",
+  "main": "sqltest.js",
   "scripts": {
     "start": "electron .",
     "rebuild": "electron-rebuild -f -w sqlite3",
@@ -18,9 +18,12 @@
     "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
+    "async": "^2.6.0",
     "bootstrap": "^3.3.7",
     "knex": "^0.13.0",
+    "mssql": "^4.1.0",
     "python-shell": "^0.4.0",
-    "sqlite3": "^3.1.13"
+    "sqlite3": "^3.1.13",
+    "tedious": "^2.2.4"
   }
 }
